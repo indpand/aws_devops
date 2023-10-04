@@ -1,15 +1,16 @@
-name: Build and Deploy the code
+name: Build and Deploy
 
 on:
-workflow_dispatch: {}
-  # push:
-  #   branches: [ main ]
-  # pull_request:
+#workflow_dispatch: {}
+  push:
+    branches: 
+     - main
+  pull_request:
 
 env:
   applicationfolder: spring-boot-hello-world-example
   AWS_REGION: ap-south-1
-  S3BUCKET: codedeploystack-webappdeploymentbucket-ek3ryd1bln17
+  S3BUCKET: codedeploystack-webappdeploymentbucket-qbavd841bnpo
 
 
 jobs:
