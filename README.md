@@ -100,12 +100,3 @@ To avoid incurring future changes, you should clean up the resources that you cr
         1. Go to the repository settings on GitHub Page.
         2. Select Secrets under Actions.
         3. Select IAMROLE_GITHUB, and delete it.
-
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
